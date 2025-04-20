@@ -8,6 +8,10 @@ app = FastAPI()
 class Query(BaseModel):
     query: str
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the SHL Assessment Recommender API"}
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
