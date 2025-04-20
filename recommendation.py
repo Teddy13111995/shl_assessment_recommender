@@ -13,7 +13,7 @@ class QueryRequest(BaseModel):
 
 def load_data():
     try:
-        file_path = os.path.join("data", "shl_assessments.json")
+        file_path = os.path.join("backend/data", "shl_assessments.json")
         print(f"Loading JSON from {file_path}")
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
