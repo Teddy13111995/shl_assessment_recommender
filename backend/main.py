@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from recommendation import recommend_assessments
+from backend.recommendation import recommend_assessments
 import uvicorn
 
 app = FastAPI()
