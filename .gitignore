@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+*.env
+*.DS_Store
+.vscode/
+*.sqlite3
+*.db
+data/shl_assessments.json
